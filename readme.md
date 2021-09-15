@@ -9,7 +9,7 @@ Criar passos quais podem ser seguidos por todos da empresa afim de facilitar e c
 ## Sistema
 Foi dividido em cada "Subproduto" do projeto em um fluxograma, qual todos precisam seguir.
 
-![[FluxogramaAtividadesNovaOS.jpg]]
+![Fluxograma Atividades OS](./FluxogramaAtividadesNovaOS.jpg)
 
 #### Dados Clientes
 Nome:
