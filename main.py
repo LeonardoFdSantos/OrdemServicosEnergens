@@ -1,11 +1,14 @@
-from fastapi import FastAPI
+from typing import List
+
+from fastapi import FastAPI, Depends
+from pydantic import BaseModel, Field
+import databases
+import sqlalchemy
+from datetime import datetime
+
 
 app = FastAPI()
 
 @app.get("/")
 async def root():
     return {"Message": "Hello World!"}
-
-@app.get("/items/{item_id}")
-async def read_item(item_id):
-    return {"item_id": item_id}
